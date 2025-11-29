@@ -8,8 +8,9 @@
 """k-NN precision and recall."""
 
 import numpy as np
-import tensorflow as tf
 from time import time
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 #----------------------------------------------------------------------------
 
